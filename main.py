@@ -7,7 +7,7 @@ import os;
 wikipedia.set_lang("es");
 
 #Funcion de busqueda
-#Covertimos la consulta a un archivo de voz
+#Convertimos la consulta a un archivo de voz
 def search_wikipedia():
     query = input();
     texto = wikipedia.summary(query, sentences=1);
